@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="assests/984-removebg-preview.png" alt="Logo" class="logo">
+      <h1>Weather Dashboard</h1>
+      <ul>
+    <li><a href="today.html">Today</a></li>
+    <li><a href="#">Daily</a></li>
+    <li><a href="#">Hourly</a></li>
+    <li><a href="#">Monthly</a></li>
+      </ul>
+ 
+    </nav>
+</header>
+<div class="main-content">
+  <input type="text" id="cityInput" placeholder="Enter cities (comma-separated)">
+  <button id="searchButton">Get Weather</button>
+</div>
+
+  <div id="weather"></div>
+
+  <script src="dash.js"></script>
+</body>
+</html>
